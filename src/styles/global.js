@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
+import 'roboto-fontface';
 
 export default createGlobalStyle`
 
@@ -17,14 +18,13 @@ export default createGlobalStyle`
 
   body, input, button {
     font-size: 14px;
-    color: #8492A6;
-    font-family: CircularStd, Arial, Helvetica, sans-serif;
+    color: #666666;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
   }
 
   #root, body, html {
-    max-width: 100vw;
-    max-height: 100vh;
-    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
   }
 
   button {
