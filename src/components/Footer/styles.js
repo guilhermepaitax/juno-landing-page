@@ -25,6 +25,9 @@ export const Section = styled.footer`
     line-height: 24px;
     text-align: center;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   @media (max-width: 960px) {
