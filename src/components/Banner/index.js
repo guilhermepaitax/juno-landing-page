@@ -1,12 +1,12 @@
 import React from 'react';
 
-import { Wrapper } from './styles';
+import { Section } from './styles';
 import { Button } from '../Button';
 import { Container } from '../Container';
 
-export default function Banner() {
+export default function Banners() {
   return (
-    <Wrapper>
+    <Section>
       <Container>
         <div>
           <h2>Profissionalize seu negócio recebendo pagamentos por boleto</h2>
@@ -20,6 +20,6 @@ export default function Banner() {
           </Button>
         </div>
       </Container>
-    </Wrapper>
+    </Section>
   );
 }

@@ -22,11 +22,6 @@ export default createGlobalStyle`
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
   }
 
-  #root, body, html {
-    width: 100vw;
-    height: 100vh;
-  }
-
   button {
     cursor: pointer;
   }

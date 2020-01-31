@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import BannerBg from '~/assets/banner-bg.png';
 
-export const Wrapper = styled.section`
+export const Section = styled.section`
   width: 100%;
   min-height: 537px;
   background: url(${BannerBg});
