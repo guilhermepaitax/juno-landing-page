@@ -7,7 +7,6 @@ import { Button } from '../Button';
 export default function CTA() {
   return (
     <Section>
-      <Image />
       <Container>
         <Feedback>
           <h2>Gostou?</h2>
@@ -17,6 +16,7 @@ export default function CTA() {
           </Button>
         </Feedback>
       </Container>
+      <Image />
     </Section>
   );
 }

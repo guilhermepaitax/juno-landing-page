@@ -11,6 +11,12 @@ export const Section = styled.section`
   background: #00155f;
   min-height: 450px;
   padding: 137px 0 150.15px;
+
+  @media (max-width: 960px) {
+    height: 724px;
+    align-items: flex-start;
+    padding: 0 0 0 21px;
+  }
 `;
 
 export const Feedback = styled.div`
@@ -31,6 +37,13 @@ export const Feedback = styled.div`
     color: #ffffff;
     margin-bottom: 27.14px;
   }
+
+  @media (max-width: 960px) {
+    padding-top: 77px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 `;
 
 export const Image = styled.div`
@@ -43,4 +56,12 @@ export const Image = styled.div`
   background-size: cover;
   background-position: 70%;
   width: 50%;
+
+  @media (max-width: 960px) {
+    width: 100%;
+    height: 393px;
+    bottom: 0;
+    top: unset;
+    background-position: 45%;
+  }
 `;
