@@ -47,7 +47,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 O objetivo deste projeto é desenvolver uma Landing Page estática utilizando React e
- hospedar a página em algum ambiente visível publicamente.
+ hospedar a página em algum ambiente visível publicamente, na qual eu useai a ferramenta Netlify.
 
 ## 🔖 Layout
 
